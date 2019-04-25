@@ -1,0 +1,16 @@
+server:
+  port: 8812
+  
+spring:
+  netty:
+    port: 7000
+    url: 127.0.0.1
+    all-idle: 12000
+    boss-threads: 3000
+    core-size: 1
+    keep-alive: 120000
+    max-size: 2
+    read-idle: 90000
+    system-type: 1
+    work-io-ratio: 1
+    work-threads: 2
